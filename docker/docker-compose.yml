@@ -54,7 +54,6 @@ services:
       RUST_LOG: debug,hyper=info
       WASMCLOUD_RPC_HOST: nats
       WASMCLOUD_CTL_HOST: nats
-      WASMCLOUD_PROV_RPC_HOST: nats
       OTEL_TRACES_EXPORTER: otlp
       OTEL_EXPORTER_OTLP_ENDPOINT: http://tempo:55681
     ports:
